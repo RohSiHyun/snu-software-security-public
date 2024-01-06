@@ -29,10 +29,10 @@ that you have used for the assignment 1 and 2.
 
 ```sh
 # Fetch Ubuntu 18.04 VM from the server.
-$ vagrant box add ubuntu/bionic64
+$ vagrant box add ubuntu/xenial64
 
 # Prepare vagrant settings for the VM in the current working directory.
-$ vagrant init ubuntu/bionic64
+$ vagrant init ubuntu/xenial64
 
 # Boot-up the VM
 $ vagrant up
