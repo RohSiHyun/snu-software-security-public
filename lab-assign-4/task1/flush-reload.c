@@ -6,12 +6,12 @@
 #include "utils.h"
 
 #define BIN_WIDTH 10
-#define NUM_BINS 80
+#define NUM_BINS 400
 #define NUM_REPEAT 32 * 1024
 
 static uint8_t oracle[256 * 64];
-static uint64_t only_load[NUM_BINS];
-static uint64_t flush_and_reload[NUM_BINS];
+static uint64_t only_load[NUM_BINS] = {0};
+static uint64_t flush_and_reload[NUM_BINS] = {0};
 
 int main(int argc, char *argv[])
 {
