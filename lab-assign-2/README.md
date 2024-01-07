@@ -1,8 +1,5 @@
 # Lab Assignment #2: Exploiting Heap Overflow
 
-- **Due date: 11:59pm, Oct 2, 2019**
-- TA: Jinhan Kwak (rhkrwlsgks1@snu.ac.kr)
-
 In this lab assignment, you will exploit a heap overflow in the
 `target` binary (i.e., `lab-assign-2/target` in our in our git
 repository `https://github.com/lifeasageek/snu-software-security-public`).
